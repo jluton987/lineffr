@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>网盘直链下载</title>
+	<title>Dowload File Drive Nhanh Gọn</title>
 </head>
 <body>
 <?php
@@ -32,7 +32,7 @@
 			echo $direct_link;
 		}
 		else{
-			echo "获取直链失败，请刷新重试";
+			echo "Không lấy được liên kết, vui lòng thử lại";
 		}
 	}
 	//蓝奏云直链下载
@@ -44,7 +44,7 @@
 			header("Location: $direct_link"); //直接跳转到下载链接
 		}
 		else{
-			echo "获取直链失败，请刷新重试";
+			echo "Không lấy được liên kết, vui lòng thử lại";
 		}
 	}
 	//360直链下载
@@ -56,108 +56,28 @@
 	}
 	else{
 		if(empty($site_name)){
-			$site_name = "https://网站地址/";
+			$site_name = "https://dldirve99.herokuapp.com";
 		}
 		echo "
-		<h1>DriveDirectLink</h1>
-
-		<p>DriveDirectLink 网盘直链下载，支持谷歌，蓝奏云</p>
-		
-		<h2>谷歌网盘直链下载</h2>
-		
-		<h3>使用方法</h3>
-		
-		<p>格式如下:
+		<h1>Trung Kiên 99</h1>
+                 <p>Nhập với định dạng sau:
 		<br>
 		<code>
-		".$site_name."?id=文件ID
+		".$site_name."?id=ID File
 		</code>
-		例如
 		<br>
-		google drive 分享链接
+		Định dạng của file drive như sau
 		<br>
 		<code>
 		https://drive.google.com/open?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T
 		</code>
 		<br>
-		直链地址
+		bạn copy dòng ?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T để tải
 		<br>
 		<code>
 		".$site_name."?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T
 		</code></p>
-
-		<h2>蓝奏云</h2>
-		
-		<h3>获取直链地址</h3>
-		
-		<p>此方法会获取并展示直链地址，而不会直接下载
-		<br>
-		格式如下:
-		<br>
-		<code>
-		".$site_name."?lz=文件ID
-		</code>
-		<br>
-		例如
-		<br>
-		蓝奏云分享链接
-		<br>
-		<code>
-		https://www.lanzous.com/ibvifch
-		</code>
-		<br>
-		直链获取地址
-		<br>
-		<code>
-		".$site_name."?lz=ibvifch
-		</code>
-		<br>
-		注意，有时候会无法获取，刷新即可</p>
-		<h3>直链下载地址</h3>
-		<p>此方法会直接跳转下载，但是经过测试发现，国外机器使用直链下载容易验证码，酌情使用
-		<br>
-		格式如下
-		<br>
-		<code>
-		".$site_name."?lzd=文件ID
-		</code>
-		<br>
-		例如
-		<br>
-		蓝奏云分享链接
-		<br>
-		<code>
-		https://www.lanzous.com/ibvifch
-		</code>
-		<br>
-		直链下载地址
-		<br>
-		<code>
-		".$site_name."?lzd=ibvifch
-		</code></p>
-		<h2>360网盘直链下载</h2>
-		
-		<h3>使用方法</h3>
-		<p>只支持单个文件且无提取码
-		<p>格式如下:
-		<br>
-		<code>
-		".$site_name."?360=文件ID
-		</code>
-		例如
-		<br>
-		360网盘 分享链接
-		<br>
-		<code>
-		https://yunpan.360.cn/surl_yYgjWMz8GhU
-		</code>
-		<br>
-		直链地址
-		<br>
-		<code>
-		".$site_name."?360=surl_yYgjWMz8GhU
-		</code></p>
-		项目地址:<a href=\"https://github.com/Kimiato/DriveDirectLink\"> https://github.com/Kimiato/DriveDirectLink </a>
+		:Facebook của Kiên<a href=\"https://m.me/kiendct3d\"> https://m.me/kiendct3d </a>
 
 		";
 	}
