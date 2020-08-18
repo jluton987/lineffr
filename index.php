@@ -78,7 +78,6 @@
 		".$site_name."?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T
 		</code></p>
 		:Facebook của Kiên<a href=\"https://m.me/kiendct3d\"> https://m.me/kiendct3d >3 >3</a>
-		<audio controls autoplay src="https://www.nhaccuatui.com/mh/background/BURxkFIxJbzY"></audio>
 
 		";
 	}
