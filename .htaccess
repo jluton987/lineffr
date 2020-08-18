@@ -1,0 +1,1 @@
+RewriteRule ^(.*).html$ $1.php [R=301,L]
