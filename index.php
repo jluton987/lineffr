@@ -56,10 +56,10 @@
 	}
 	else{
 		if(empty($site_name)){
-			$site_name = "https://dldirve99.herokuapp.com";
+			$site_name = "http://dldrive.trungkien99.com";
 		}
 		echo "
-		<h1>Trung Kiên 99</h1>
+		<h1>Đây là trng loading..... :)))))</h1>
                  <p>Nhập với định dạng sau:
 		<br>
 		<code>
