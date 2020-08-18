@@ -59,25 +59,26 @@
 			$site_name = "http://dldrive.trungkien99.com";
 		}
 		echo "
-		<h1>Đây là trng loading..... :)))))</h1>
+		<h1>Đây là trang tải File GG Drive 1 nốt nhạc :V :)))))</h1>
                  <p>Nhập với định dạng sau:
 		<br>
 		<code>
 		".$site_name."?id=ID File
 		</code>
 		<br>
-		Định dạng của file drive như sau
+		Đây là link mẫu nè :
 		<br>
 		<code>
 		https://drive.google.com/open?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T
 		</code>
 		<br>
-		bạn copy dòng ?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T để tải
+		bạn copy dòng ?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T và pate vào để tải đi he !!!
 		<br>
 		<code>
 		".$site_name."?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T
 		</code></p>
-		:Facebook của Kiên<a href=\"https://m.me/kiendct3d\"> https://m.me/kiendct3d </a>
+		:Facebook của Kiên<a href=\"https://m.me/kiendct3d\"> https://m.me/kiendct3d >3 >3</a>
+		<iframe src="https://www.nhaccuatui.com/mh/background/BURxkFIxJbzY" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 		";
 	}
